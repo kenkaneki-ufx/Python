@@ -1,29 +1,29 @@
 ####### UNIT 1 ############
 
-'''#   1.Write a Python program to print "Hello, World!"
+'''   1.Write a Python program to print "Hello, World!"
 print("Hello World!")
 '''
 
-'''#   2.Write a program to add two numbers.
+'''   2.Write a program to add two numbers.
 a = int(input("Enter first Number: "))
 b = int(input("Enter second Number: "))
 print("Sum of two numbers:",a+b)
 '''
 
-'''#   3.Write a program to find the area of a rectangle.
+'''   3.Write a program to find the area of a rectangle.
 l = int(input("Enter length: "))
 b = int(input("Enter breadth: "))
 print("Area of rectangle:", 2*(l+b))
 '''
 
-'''#   4.Write a program to swap two numbers.
+'''   4.Write a program to swap two numbers.
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 a,b = b,a
 print(a,b)
 '''
 
-'''#   5.Write a program to calculate simple interest.
+'''   5.Write a program to calculate simple interest.
 p = int(input("Enter principal amouunut $: "))
 r = int(input("Enter Annual rate: "))
 t = int(input("Enter time: "))
@@ -31,37 +31,37 @@ si = p*r*t/100
 print("Simple intrest:", si, "$")
 '''
 
-'''#   6.Write a program to convert Celsius to Fahrenheit.
+'''   6.Write a program to convert Celsius to Fahrenheit.
 c = int(input("Enter temprature in celcuis: "))
 f = c*1.8+32
 print("Farenheit:",f,"°F")
 '''
 
-'''#   7.Write a program to find the square and cube of a number.
+'''   7.Write a program to find the square and cube of a number.
 num = int(input("Enter a Number: "))
 print("Square:",num**2)
 print("Cube:",num**3)
 '''
 
-'''#   8.Write a program to check the data type of a variable.
+'''   8.Write a program to check the data type of a variable.
 age = 25
 price = 19.99
 name = "Python"
-is_active = True
+is_active = True 
 print(type(age))
 print(type(price))
 print(type(name))
 print(type(is_active))
 '''
 
-'''#   9.Write a program to calculate the average of three numbers.
+'''   9.Write a program to calculate the average of three numbers.
 a = int(input("Enter Number 1: "))
 b = int(input("Enter Number 2: "))
 c = int(input("Enter Number 3: "))
 print("Average:",(a+b+c)/3)
 '''
 
-'''#   10.Write a program using different arithmetic operators.
+'''   10.Write a program using different arithmetic operators.
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 sum = num1 + num2
@@ -86,7 +86,7 @@ print("Exponentiation = ", exp )
 
 # what are python variables.? Give an example of diclaring numeric datatype.
 
-'''# Explain python basic operators and datatypes.WAP to check number is EVEN or ODD using if else.
+''' Explain python basic operators and datatypes.WAP to check number is EVEN or ODD using if else.
 try:
     num = int(input("Enter a mumber: "))
     if num%2 == 0:
@@ -97,7 +97,7 @@ except ValueError:
     print("Invalid input...")
 '''
 
-'''#   Explain python blocks and conditional statements.WAP to grade student's based on marks using elif statement.
+'''   Explain python blocks and conditional statements.WAP to grade student's based on marks using elif statement.
 try:
     math = int(input("Enter marks obtained in Maths: "))
     phy = int(input("Enter marks obtained in Maths: "))
@@ -123,7 +123,7 @@ except ValueError:
     print("invalid input..")
 '''
 
-'''# WAP to calculate area of circle.
+''' WAP to calculate area of circle.
 try:
     radius = int(input("Enter radius: "))
     area = 22/7*(radius**2)
@@ -132,7 +132,7 @@ except ValueError:
     print("Invalid radius...")
 '''
 
-'''#   create an empty dictionary...update elements....replace elements
+'''   create an empty dictionary...update elements....replace elements
 d1 = {}                  
 print(d1)
 d1.update({
@@ -145,7 +145,7 @@ d1['roll_no']=13
 print(d1)
 '''
 
-'''#   create an empty set...add elements....remove elements
+'''   create an empty set...add elements....remove elements
 s1 = set()
 print(s1)
 s1 = set([10,"Aryan",13.4,True])
@@ -154,7 +154,7 @@ s1.remove(10)
 print(s1)
 '''
 
-'''#   ODD and EVEN
+'''   ODD and EVEN
 try:
     num = int(input("Enter a number: "))
     if num%2 != 0:
@@ -165,7 +165,7 @@ except:
     print("Invalid Number")
 '''
 
-'''#WAP to check Number is positive/Negative/Zero
+''' WAP to check Number is positive/Negative/Zero
 try:
     num = int(input())
     if num > 0:
@@ -178,7 +178,7 @@ except:
     print("Invalid Number...")
 '''
 
-'''#   WAP to get the marks of five subjects from the user and calculate the average marks scored...and calculate the grade obtained based on the average marks scored.
+'''   WAP to get the marks of five subjects from the user and calculate the average marks scored...and calculate the grade obtained based on the average marks scored.
 m1 = float(input("Enter marks obtained in subject 1: "))
 m2 = float(input("Enter marks obtained in subject 2: "))
 m3 = float(input("Enter marks obtained in subject 3: "))
@@ -205,7 +205,7 @@ else:
     print("Grade: F")
 '''
 
-'''#   Design a simple calculator that performs basic mathematical operation...it takes three inputs from user..at first the user is asked to enter two number (operands) and third will be the string (operent)
+'''   Design a simple calculator that performs basic mathematical operation...it takes three inputs from user..at first the user is asked to enter two number (operands) and third will be the string (operent)
 try:
     num1 = int(input("Enter number 1: "))
     num2 = int(input("Enter number 2: "))
@@ -224,7 +224,7 @@ except ValueError:
     print("Invalid input..")
 '''
 
-'''#   WAP to find Vowels and consonent
+'''   WAP to find Vowels and consonent
 char = input("Enter an Alphabet: ")
 vowel = ("a","e","i","o","u","A","E","I","O","U")
 if char in vowel:
@@ -233,7 +233,7 @@ else:
     print(char ,"is Consonent")
 '''
 
-'''#   WAP to print table
+'''   WAP to print table
 num = int(input("Enter a number: "))
 for i in range(1,11):
     print(f"{num} x {i} = {num*i}")
@@ -245,7 +245,7 @@ while i<=10:
     i=i+1
 '''
 
-'''#    find sum of N natural numbers
+'''    find sum of N natural numbers
 n = int(input("Enter the number: "))
 i = 1
 sum = 0
@@ -255,7 +255,7 @@ while i<=n:
 print(f"Sum of {n} Natural numbers: {sum}")
 '''
 
-'''#   WAP to count the number of digits in a given number.
+'''   WAP to count the number of digits in a given number.
 num = int(input("Enter a number: "))
 i = 0
 while num != 0:
@@ -267,7 +267,7 @@ num = input("Enter a number: ")
 print(f"Digits of {num}: {len(num)}")
 '''
 
-'''#   WAP to find the sum of digits of a given number.
+'''   WAP to find the sum of digits of a given number.
 num = int(input("Enter a number: "))
 sum = 0
 while num!=0:
@@ -277,7 +277,7 @@ while num!=0:
 print("Sum of digits: ",sum)
 '''
 
-'''#   WAP to print reverse and check whether a number is a palindrome using a while loop.
+'''   WAP to print reverse and check whether a number is a palindrome using a while loop.
 num = int(input("Enter a number: "))
 n = num
 rev = 0
@@ -292,7 +292,7 @@ else:
     print(num,"is not a Palindrome number")
 '''
 
-'''#   WAP to check whether a number is an Armstrong number using a while loop.
+'''   WAP to check whether a number is an Armstrong number using a while loop.
 num = int(input("Enter a number: "))
 n = num
 sum = 0
